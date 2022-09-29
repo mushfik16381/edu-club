@@ -1,0 +1,18 @@
+.container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.cart-container{
+    padding: 80px 120px 60px 140px;
+
+}
+.title-text{
+    font-size: 32px;
+    font-weight: 500;
+    color: rgb(32, 161, 248);
+    margin-bottom: 30px;
+}
+.title-details{
+    font-size: 18px;
+    font-weight: 500;
+}

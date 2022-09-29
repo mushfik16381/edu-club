@@ -1,0 +1,57 @@
+[
+    {
+      "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+      "name": "Physics",
+      "title": "Physics is the natural science that studies matter, its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force.",
+      "class": 12,
+      "time": 45,
+      "img": "https://www.lanl.gov/org/ddste/aldps/physics/_assets/images/physics-homepage.png",
+      "quantity": 0
+    },
+  {
+      "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+      "name": "Biology",
+      "title": "Biology is the scientific study of life. It is a natural science with a broad scope but has several unifying themes that tie it together as a single, coherent field.",
+      "class": 12,
+      "time": 30,
+      "img": "https://cdn.pixabay.com/photo/2018/07/15/10/44/dna-3539309__480.jpg",
+      "quantity": 0
+    },
+  {
+      "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+      "name": "Ict",
+      "title": "Information and communications technology is an extensional term for information technology that stresses,the role of unified communications and the integration of telecommunications.",
+      "class": 12,
+      "time": 20,
+      "img": "https://www.bangladeshpost.net/webroot/uploads/featureimage/2021-02/6022b2191c32f.jpg",
+      "quantity": 0
+    },
+  {
+      "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+      "name": "English",
+      "title": "English is a West Germanic language of the Indo-European language family, with its earliest forms spoken by the inhabitants of early medieval England.",
+      "class": 12,
+      "time": 50,
+      "img": "https://fluencycorp.com/wp-content/uploads/2019/01/hardest-part-learning-english.jpg",
+      "quantity": 0
+    },
+  {
+      "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+      "name": "Chemistry",
+      "title": "Chemistry is a natural science that covers the elements that make up matter to the compounds composed of atoms, molecules and ions.",
+      "class": 12,
+      "time": 40,
+      "img": "https://council.science/wp-content/uploads/2017/04/IUPAC-feature-image-1400x600.jpg",
+      "quantity": 0
+    },
+  {
+      "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+      "name": "Mathematic",
+      "time": 60,
+      "title": "Mathematics is an area of knowledge that includes such topics as numbers (arithmetic and number theory), formulas and related structures (algebra).",
+      "class": 12,
+      "img": "https://www.stoodnt.com/blog/wp-content/uploads/2021/10/branches_of_mathematics.jpg",
+      "quantity": 0
+    }
+  ]
+  
