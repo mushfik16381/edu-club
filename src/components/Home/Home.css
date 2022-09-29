@@ -28,9 +28,6 @@
     .display-container{
         display: block;
     }
-    .cart-container{
-        padding: 50px 0 60px 81px;
-    }
     .subject-container{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -41,6 +38,15 @@
         border-radius: 20px;
         margin: 0 40px;
         padding-right: 20px;
+    }
+    .break-time {
+        padding: 9px 2px;
+    }
+    .break-time .btn-break {
+        margin: 2px;
+    }
+    .btn-break h6{
+        font-size: 13px;
     }
     .blog-container {
         width: 90%;

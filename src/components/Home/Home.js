@@ -1,9 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookOpenReader} from '@fortawesome/free-solid-svg-icons'
-import './Home.css'
 import Subjects from '../Subjects/Subjects';
 import Cart from '../Cart/Cart';
+import './Home.css'
 
 const Home = () => {
     const [subjects, setsubjects] = useState([]);
