@@ -33,5 +33,21 @@
 .subject-details .time{
     font-size: 16px;
     font-weight: 500;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+}
+.btn-cart{
+    width: 90%;
+    margin: 0 auto;
+    padding: 12px 10px;
+    background-color: #20A1F8;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: .5;
+}
+.btn-cart:hover{
+    background-color: rgb(26, 155, 26);
 }

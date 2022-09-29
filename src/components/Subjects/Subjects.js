@@ -12,6 +12,9 @@ const Subjects = (props) => {
             <p className='clases'>For Class: {clases}</p>
             <p className='time'>Time Expend: {time}Min</p>
             </div>
+            <button className='btn-cart'>
+                <p className='btn-text'>Add to list</p>
+            </button>
         </div>
     );
 };
