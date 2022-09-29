@@ -30,7 +30,6 @@ const Cart = (props) => {
         })
     }
     
-    
     return (
         <div className='info-details'>
             <div className='person-info'>
