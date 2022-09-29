@@ -5,7 +5,7 @@ const Cart = () => {
     return (
         <div className='info-details'>
             <div className='person-info'>
-                <h3>Mushfik Ahmed</h3>
+                <h2>Mushfik Ahmed</h2>
                 <h4>Demra, Dhaka</h4>
             </div>
             <div className='person-details'>

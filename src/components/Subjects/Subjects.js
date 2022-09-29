@@ -2,6 +2,7 @@ import React from 'react';
 import './Subjects.css'
 
 const Subjects = (props) => {
+    const {handleAddToCart} =props;
     const {img, name, title, clases, time} = props.subject;
     return (
         <div className='subject'>
@@ -12,7 +13,7 @@ const Subjects = (props) => {
             <p className='clases'>For Class: {clases}</p>
             <p className='time'>Time Expend: {time}Min</p>
             </div>
-            <button className='btn-cart'>
+            <button onClick={() => handleAddToCart(props.subject)} className='btn-cart'>
                 <p className='btn-text'>Add to list</p>
             </button>
         </div>

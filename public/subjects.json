@@ -9,7 +9,7 @@
       "quantity": 0
     },
   {
-      "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+      "id": "124e13b8-2d54-4b2f-a74d-a77b362d6ead",
       "name": "Biology",
       "title": "Biology is the scientific study of life. It is a natural science with a broad scope but has several unifying themes that tie it together as a single, coherent field all organisms are made up.",
       "clases": 12,
@@ -18,7 +18,7 @@
       "quantity": 0
     },
   {
-      "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+      "id": "124e13b7-2d54-4b2f-a74d-a77b362d6ead",
       "name": "Ict",
       "title": "Information and communication technology is an extensional term for information technology  stresses,the role of unified communications and the telecommunications.",
       "clases": 12,
@@ -27,7 +27,7 @@
       "quantity": 0
     },
   {
-      "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+      "id": "124e13b6-2d54-4b2f-a74d-a77b362d6ead",
       "name": "English",
       "title": "English is a West Germanic language of the Indo-European language family, with its earliest forms spoken by the inhabitants of early medieval England.",
       "clases": 12,
@@ -36,7 +36,7 @@
       "quantity": 0
     },
   {
-      "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+      "id": "124e13b4-2d54-4b2f-a74d-a77b362d6ead",
       "name": "Chemistry",
       "title": "Chemistry is a natural science that covers the elements that make up matter to the compounds composed of atoms, molecules and ions.",
       "clases": 12,
@@ -45,7 +45,7 @@
       "quantity": 0
     },
   {
-      "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+      "id": "124e13b2-2d54-4b2f-a74d-a77b362d6ead",
       "name": "Mathematic",
       "time": 60,
       "title": "Mathematics is an area of knowledge that includes such topics as numbers (arithmetic and number theory), formulas and related structures.",
