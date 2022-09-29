@@ -1,0 +1,37 @@
+.subject{
+    width: 250px;
+    border: 1px solid rgb(131, 129, 129);
+    border-radius: 10px;
+
+}
+.subject img{
+    width: 230px;
+    height: 130px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.subject-details{
+    padding-left: 20px;
+    padding-right: 5px;
+}
+.subject-details h3{
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+.subject-details .title{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-top: 10px;
+}
+.subject-details .clases{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+.subject-details .time{
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}

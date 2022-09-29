@@ -1,16 +1,17 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './Subjects.css'
 
-const Subjects = () => {
-    const [subjects, setSubjects] = useState([]);
-    useEffect(() => {
-        fetch('subjects.json')
-        .then(res => res.json())
-        .then(data =>console.log(data))
-    },[])
+const Subjects = (props) => {
+    const {img, name, title, clases, time} = props.subject;
     return (
-        <div>
-            <h3>subject: {subjects.length}</h3>
+        <div className='subject'>
+            <img src={img} alt="" />
+            <div className='subject-details'>
+            <h3>{name}</h3>
+            <p className='title'>{title}</p>
+            <p className='clases'>For Class: {clases}</p>
+            <p className='time'>Time Expend: {time}Min</p>
+            </div>
         </div>
     );
 };
