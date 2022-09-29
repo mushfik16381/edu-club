@@ -40,15 +40,15 @@ const Cart = (props) => {
             <div className='person-details'>
                 <div>
                     <h4>75</h4>
-                    <h4>Id</h4>
+                    <h5>Id</h5>
                 </div>
                 <div>
                     <h4>6.4</h4>
-                    <h4>Height</h4>
+                    <h5>Height</h5>
                 </div>
                 <div>
                     <h4>17yrs</h4>
-                    <h4>Age</h4>
+                    <h5>Age</h5>
                 </div>
             </div>
             <h3>Add A Break</h3>
