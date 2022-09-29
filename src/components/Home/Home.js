@@ -21,7 +21,7 @@ const Home = () => {
     }
 
     return (
-        <div className='container'>
+        <div className='display-container'>
             <div className="cart-container">
                     <p className='title-text'><FontAwesomeIcon icon={faBookOpenReader}></FontAwesomeIcon> EDU-CLUB</p>
                     <p className='title-details'>Select todays exercise</p>
