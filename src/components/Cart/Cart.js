@@ -45,11 +45,11 @@ const Cart = (props) => {
             </div>
             <h3>Add A Break</h3>
             <div className='break-time'>
-                <button onClick={() =>breakToTime(10)} className='btn-break'> <h6>20m</h6></button>
-                <button onClick={() =>breakToTime(10)} className='btn-break'> <h6>30m</h6></button>
-                <button onClick={() =>breakToTime(10)} className='btn-break'> <h6>40m</h6></button>
-                <button onClick={() =>breakToTime(10)} className='btn-break'> <h6>50m</h6></button>
-                <button onClick={() =>breakToTime(10)} className='btn-break'> <h6>60m</h6></button>
+                <button onClick={() =>breakToTime(20)} className='btn-break'> <h6>20m</h6></button>
+                <button onClick={() =>breakToTime(30)} className='btn-break'> <h6>30m</h6></button>
+                <button onClick={() =>breakToTime(40)} className='btn-break'> <h6>40m</h6></button>
+                <button onClick={() =>breakToTime(50)} className='btn-break'> <h6>50m</h6></button>
+                <button onClick={() =>breakToTime(60)} className='btn-break'> <h6>60m</h6></button>
             </div>
             <h3>Reading Details</h3>
             <div className='read-details'>
