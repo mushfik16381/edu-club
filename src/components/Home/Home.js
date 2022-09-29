@@ -16,7 +16,6 @@ const Home = () => {
     },[]);
 
     const handleAddToCart = (subject) =>{
-        console.log(subject);
         const newCart = [...cart, subject];
         setCart(newCart);
     }
@@ -35,7 +34,7 @@ const Home = () => {
                     
             </div>
             <div className="info-container">
-                <Cart></Cart>
+                <Cart cart={cart}></Cart>
             </div>
         </div>
     );

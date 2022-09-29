@@ -1,7 +1,28 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Cart.css'
 
-const Cart = () => {
+const Cart = (props) => {
+    const {cart} = props;
+    const [breaks, setbreaks] = useState(0);
+
+    const breakToTime = (e) =>{
+        localStorage.setItem('time', e);
+        setbreaks(e);
+    }
+
+    useEffect(() =>{
+        let value = localStorage.getItem('time');
+        if(value){
+            setbreaks(value)
+        }
+    },[])
+
+    let total = 0;
+    for(const subject of cart){
+        total = total + subject.time
+    }
+    
+    
     return (
         <div className='info-details'>
             <div className='person-info'>
@@ -24,20 +45,20 @@ const Cart = () => {
             </div>
             <h3>Add A Break</h3>
             <div className='break-time'>
-                <h6>20M</h6>
-                <h6>30M</h6>
-                <h6>40M</h6>
-                <h6>50M</h6>
-                <h6>60M</h6>
+                <button onClick={() =>breakToTime(10)} className='btn-break'> <h6>20m</h6></button>
+                <button onClick={() =>breakToTime(10)} className='btn-break'> <h6>30m</h6></button>
+                <button onClick={() =>breakToTime(10)} className='btn-break'> <h6>40m</h6></button>
+                <button onClick={() =>breakToTime(10)} className='btn-break'> <h6>50m</h6></button>
+                <button onClick={() =>breakToTime(10)} className='btn-break'> <h6>60m</h6></button>
             </div>
             <h3>Reading Details</h3>
             <div className='read-details'>
                 <h2>Reading time </h2>
-                <p>ddd</p>
+                <p>{total}</p>
             </div>
             <div className='break-details'>
                 <h2>Break time </h2>
-                <p>ddd</p>
+                <p>{breaks}</p>
             </div>
             <button className='btn-complete'>
                 <p className='btn-text'>Activity Completed</p>
