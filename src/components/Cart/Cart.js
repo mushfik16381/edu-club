@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Cart.css'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Cart = (props) => {
     const {cart} = props;
@@ -20,6 +22,12 @@ const Cart = (props) => {
     let total = 0;
     for(const subject of cart){
         total = total + subject.time
+    }
+
+    const endToast = () => {
+        toast.success("Activity Completed!",{
+            position:"top-center"
+        })
     }
     
     
@@ -60,9 +68,14 @@ const Cart = (props) => {
                 <h2>Break time </h2>
                 <p>{breaks}</p>
             </div>
-            <button className='btn-complete'>
+            <div>
+            <button onClick={endToast} className='btn-complete'>
                 <p className='btn-text'>Activity Completed</p>
             </button>
+            <ToastContainer />
+            </div>
+            
+        
         </div>
     );
 };
